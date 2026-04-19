@@ -1,3 +1,4 @@
 pandas
 sqlite3
 google-genai
+streamlit
