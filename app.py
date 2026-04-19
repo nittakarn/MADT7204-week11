@@ -14,7 +14,7 @@ import json
 try:
     gemini_api_key = st.secrets["gemini_api_key"]
 except:
-    gemini_api_key = "AIzaSyCw12h1ljixUts2gkgy43tGFKzj7CRIVsY"
+    gemini_api_key = "AIzaSyAhPywzvlfbBsP1Bxuelf1h_TVeS0h4Sso"
 
 gmn_client = genai.Client(api_key=gemini_api_key)
 
